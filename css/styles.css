@@ -25,7 +25,109 @@ body{
     font-family: 'Marcellus', serif;
 }
 
-/*Barra de navegacion*/
+/*Mobile First*/
+nav{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: var(--negro2);
+}
+.logo img{
+    width: 40%;
+    max-width: 200px;
+}
+.logo i{
+    color: var(--blanco);
+    font-size: 2rem;
+}
+.menu{
+    background-color: rgba(1, 10, 52, 0.838);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.menu-hr{
+    width: 90%;
+    background-color: var(--blanco);
+}
+.item{
+    padding: 1rem;
+}
+nav a{
+    color: var(--blanco);
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Marcellus', serif;
+    color: var(--blanco);
+    font-size: 1.3rem;
+}
+nav a:hover{
+    background-color: #0B3860;
+    width: 100%;
+}
+.navbar-button{
+    background-color:transparent;
+    border: none;
+    border-radius: 3px;
+    font-size: 1em;
+    padding: 0.5rem;
+    font-family: 'Marcellus', serif;
+    color: var(--blanco);
+    cursor: pointer;
+}
+
+/*Resolución tablet*/
+@media screen and (min-width: 768px){
+}
+
+@media screen and (min-width: 1024px){
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--negro2);
+}
+.logo{
+    padding: 1rem;
+}
+.logo img{
+    width: 100%;
+    max-width: 180px;
+}
+.menu{
+    display: block;
+    background-color: var(--negro2);
+}
+.logo i{
+    display: none;
+}
+.menu-hr{
+    display: none;
+}
+}
+.navbar-button{
+    background-color: var(--azuloscuro);
+}
+
+
+
+
+
+
+
+
+
+/*Barra de navegacion
 
 nav{
     display: flex;
@@ -58,7 +160,7 @@ nav{
     height: 3rem;
 }
 
-/*Seccion Features*/
+/*Seccion Features
 
 #features{
     display: flex;
@@ -73,7 +175,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     margin-top: 1rem;
-    /*margin-bottom: ;*/
+    margin-bottom: 1rem;
 }
 
 .feature-title{
@@ -102,7 +204,7 @@ nav{
     background-color: rgba(0,0,0,0.59);
 }
 
-/*cambios*/
+/*cambios
 .cambios{
     display: flex;
     flex-direction: row;
@@ -120,4 +222,4 @@ nav{
 .ab{
     flex-basis: 25%;
     align-items: center;
-}
+}*/
