@@ -142,6 +142,9 @@ nav a:hover {
     background-color: var(--azuloscuro);
     align-self: center;
 }
+.item{
+    padding: 1.5rem;
+}
 
 
 }
