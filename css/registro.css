@@ -14,30 +14,23 @@ url('https://fonts.googleapis.com/css2?family=Marcellus&amp;family=Roboto:ital,w
   --blanco: #fff;
   --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
 }
-
 html{
     background-image: url(../img/index/slide2.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 *{
     margin: 0;
     padding: 0;
-
 }
-
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    background-color: transparent;
-    
+    background-color: transparent;  
 }
-
 h1,h2,h3,h4,h5 {
     font-family: 'Marcellus', serif;
 }
-
 /*mobile first*/
 .body{
     display: grid;
@@ -98,18 +91,15 @@ img{
     height: 70px;
     padding: 2px;
 }
-
 .footer{
     display: block;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-
 .footer input{
     font-size: 18px;
 }
-
 .button {
     margin-bottom: 20px;
     width: 50%;
@@ -120,8 +110,6 @@ img{
     align-items: center;
     justify-content: center;
 }
-
-
 @media screen and (min-width:1024px){
 
     html{
