@@ -83,3 +83,33 @@ h1,h2,h3,h4,h5{
     color: #fff;
     border-radius: 50%;
 }
+.form label{
+    width: 65%;
+    margin-top: 20px;
+}
+#submit{
+    margin-top: 45px;
+    width: 65%;
+    height: 30px;
+    color: #fff;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--negro2);
+}
+.form p{
+    display: none;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.form a{
+    text-decoration: none;
+    color: var(--negro2);
+}
+
+@media screen and (min-width: 1024px){
+
+    .form p{
+        display: block;
+    }
+}
