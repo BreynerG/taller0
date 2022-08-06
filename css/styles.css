@@ -53,7 +53,7 @@ nav{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    display: none;
+    /*display: none;*/
 }
 .menu-hr{
     width: 90%;
@@ -202,9 +202,9 @@ nav{
  
 .feature-black{
     background-color: rgba(0,0,0,0.59);
-}
+}*/
 
-/*cambios
+/*cambios*/
 .cambios{
     display: flex;
     flex-direction: row;
@@ -222,4 +222,4 @@ nav{
 .ab{
     flex-basis: 25%;
     align-items: center;
-}*/
+}
